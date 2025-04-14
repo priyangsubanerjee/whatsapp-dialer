@@ -34,7 +34,7 @@ export default function Home() {
         <p className="text-sm text-white textpre text-center font-medium leading-6 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div className="p-4 fixed bottom-0 inset-x-0">
-        <div className="bg-white w-full p-6 shadow-primary rounded-[24px]">
+        <div className="bg-white w-full py-6 px-4 shadow-primary rounded-[24px]">
           <div className="flex items-center justify-center gap-10 max-w-[200px] mx-auto">
             <button>
               <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24">
@@ -48,7 +48,7 @@ export default function Home() {
                 ></path>
               </svg>
             </button>
-            <button className="opacity-50">
+            <button className="opacity-40">
               <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24">
                 <path
                   fill="currentColor"
@@ -56,7 +56,7 @@ export default function Home() {
                 ></path>
               </svg>
             </button>
-            <button className="opacity-50">
+            <button className="opacity-40">
               <svg xmlns="http://www.w3.org/2000/svg" width={28} height={28} viewBox="0 0 28 28">
                 <path
                   fill="currentColor"
@@ -66,8 +66,14 @@ export default function Home() {
             </button>
           </div>
           <div className="flex items-center h-14 bg-neutral-100 rounded-xl mt-6">
-            <span className="w-20 h-14 flex items-center justify-center border-r border-neutral-200 font-medium">+91 </span>
-            <input type="number" className="w-full bg-transparent outline-none text-lg px-4" placeholder="Enter the number here" name="" id="" />
+            <span className="w-16 h-14 flex items-center justify-center border-r border-neutral-200 font-medium">+91 </span>
+            <input
+              type="number"
+              className="w-full bg-transparent outline-none text-lg px-4 tracking-wide"
+              placeholder="Type number here"
+              name=""
+              id=""
+            />
           </div>
           <div className="flex justify-center mt-6">
             <button className="text-sm text-neutral-600 flex items-center gap-2">
