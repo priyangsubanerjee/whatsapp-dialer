@@ -98,7 +98,7 @@ function DialCard() {
 
   return (
     <div className="p-4 fixed bottom-1 md:bottom-10 inset-x-0">
-      <div className="bg-white border-2 w-full py-6 px-5 rounded-t-[24px] rounded-b-[50px] max-w-sm mx-auto">
+      <div className="bg-white border-2 w-full py-6 px-5 rounded-t-[20px] rounded-b-[45px] max-w-sm mx-auto">
         <div className="flex items-center justify-center gap-10 max-w-[200px] mx-auto">
           {tabs.map((tab, index) => (
             <button key={index} onClick={() => setSelectedTab(index)} className={`${selectedTab === index ? "text-[#1b1b1b]" : "text-neutral-400"}`}>
