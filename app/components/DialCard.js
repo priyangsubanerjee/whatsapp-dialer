@@ -8,7 +8,9 @@ function DialCard() {
   const openChat = (mode = "in_app") => {
     if (!number) {
       toast("Please enter a number");
-      document.getElementById("number-input").focus();
+      setTimeout(() => {
+        document.getElementById("number-input").focus();
+      }, 2000);
       return;
     }
     switch (mode) {
@@ -66,7 +68,7 @@ function DialCard() {
           />
         </div>
         <div className="flex justify-center mt-6">
-          <button className="text-sm text-neutral-600 flex items-center gap-2">
+          <button onClick={() => openChat("web")} className="text-sm text-neutral-600 flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24">
               <path
                 fill="none"
