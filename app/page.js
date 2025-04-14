@@ -34,7 +34,7 @@ export default function Home() {
         <p className="text-sm text-white textpre text-center font-medium leading-6 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div className="p-4 fixed bottom-0 inset-x-0">
-        <div className="bg-white w-full py-6 px-4 shadow-primary rounded-[24px]">
+        <div className="bg-white w-full py-6 px-5 shadow-primary rounded-[24px]">
           <div className="flex items-center justify-center gap-10 max-w-[200px] mx-auto">
             <button>
               <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24">
