@@ -1,7 +1,7 @@
 export default function manifest() {
   return {
     name: "WhatsApp Dialer",
-    short_name: "Dialer",
+    short_name: "WapDialer",
     description: "WhatsApp Dialer",
     start_url: "/",
     display: "standalone",
